@@ -1,14 +1,23 @@
 ---
 title: Big Macro notes in one searchable document
 author: Zhenghong Lieu
-date: For Finals 2020
+layout: base
+date: 2021-03-31
+permalink: "{{ page.filePathStem }}/../"
 ---
 
 \pagebreak
-
 \tableofcontents
-
 \pagebreak
+
+Download the PDF [here](../notes.pdf).
+**TODO:** autogenerate PDF using a GitHub action after every merged PR.
+
+<div class='toc'>
+
+[toc]
+
+</div>
 
 # Key equations in all the models
 
@@ -101,13 +110,14 @@ Finally, let's look at the growth rate of output, $g_Y$. We start with the
 Cobb-Douglas production function (letting A =1 for simplicity), take logs, and
 differentiate to get:
 
-\begin{align}
+
+$$\begin{align}
 Y &= K^\alpha N^{1-\alpha}\\
 \log Y &= \alpha \log K + (1-\alpha) \log N\\
 \frac{d \log Y}{dY}\frac{dY}{dt} &= \alpha \frac{d \log K}{dK} \frac{dK}{dt} + (1-\alpha) \frac{d \log N}{dN} \frac{dN}{dt}\\
 \frac{\dot{Y}}{Y} &= \alpha \frac{\dot{K}}{K} + (1-\alpha) \frac{\dot{N}}{N}\\
 g_Y &= \alpha g_K + (1-\alpha) n.
-\end{align}
+\end{align}$$
 
 The expression is easily understood. The growth of output is a weighted sum of
 the growth of capital and the growth of the labour force, with weights equal to
@@ -127,11 +137,11 @@ We know that at the steady state, the ratio of capital to labour does not
 change: that is: $\dot{k} = 0$. With this, and the Fundamental Solow Equation
 of Motion, we have:
 
-\begin{align}
+$$\begin{align}
 \dot{k} &= sAk^{\alpha} - (n + \delta)k \\
 sAk^{\alpha} &= (n + \delta)k \\
 \dot{k} &= (\frac{sA}{n+\delta})^{\frac{1}{1-\alpha}}
-\end{align}
+\end{align}$$
 
 Given that $y = Ak^\alpha$, we can also solve for $y^{*}$, to obtain:
 
@@ -189,9 +199,12 @@ The skill premium, $\omega$, is given by the ratio of $w _H$ to $w_L$. After tak
 $$\ln \omega = \frac{\sigma-1}{\sigma} \ln(\frac{A_h}{A_l}) -
 \frac{1}{\sigma}\ln(\frac{H}{L})$$ 
 
-where $\sigma$ is the elasticity of substitution: $\sigma \equiv \frac{1}{1-\rho}$ 
+where $\sigma$ is the elasticity of substitution: 
+$\sigma \equiv \frac{1}{1-\rho}.$ 
 
-$$\frac{A_h}{A_l} = (\frac{H}{L})^ {\sigma - 1} $$.
+This gives us
+
+$$\frac{A_h}{A_l} = (\frac{H}{L})^{\sigma - 1}$$
 
 This gives the result that when $\sigma > 1$, more technology will be produced
 for the higher-skilled worker if H/L increases (i.e. the market size effect
@@ -366,11 +379,12 @@ the wage rate increasing. By the income effect, the worker can afford to work
 less, but at the same time, the substitution effect means the worker wants to
 work more.
 
-In Chris Bowdler slides, he takes the partial derivative of $\frac{1}{a (\alpha
-+ \frac{1}{\alpha\beta})}$ and finds that the first effect dominates iff when
+In Chris Bowdler slides, he takes the partial derivative of 
+$\frac{1}{a (\alpha + \frac{1}{\alpha\beta})}$ 
+and finds that the first effect dominates iff when
 $\alpha^2\beta > 1$. That is to say, an increase in $\alpha$ causes a
-decrease in the central bank's chosen inflation reduction when $\alpha^2\beta
-> 1$.
+decrease in the central bank's chosen inflation reduction when 
+$\alpha^2\beta > 1$.
 
 With what we know now, we can easily answer this PYP question:
 
@@ -1036,9 +1050,11 @@ When a firm sets its prices, therefore, it has to take into account the fact
 that it may not get to change its prices for many periods after that. The
 derivation in the slides[^1] gives us
 
-$$\pi_t = E_t \pi_{t+1} + k(y_t - y_e) $$
+$$\pi_t = E_t \pi_{t+1} + k(y_t - y_e)$$
 
-where $$k = \frac{\alpha \lambda}{1- \lambda}$$, and $\lambda$ is the proportion
+where 
+$$k = \frac{\alpha \lambda}{1- \lambda},$$ 
+and $\lambda$ is the proportion
 of firms who get to set prices costlessly.
 
 [^1]: What we have done previously is to use BMR's microfoundations to explain
@@ -1675,7 +1691,7 @@ offers a slightly negative return due to costs of storage/insurance. Therefore
 the CB's deposit rates also have a lower bound just below zero.
 
 The ZLB is the lowest feasible real rate of inflation $r^{min}$. If inflation
-expectations start at target, then $r^min = -\pi^T$ because nominal rates
+expectations start at target, then $r^{min} = -\pi^T$ because nominal rates
 cannot go much below zero.
 
 ## How the ZLB can cause a deflationary spiral
