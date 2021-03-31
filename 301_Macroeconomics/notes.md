@@ -10,7 +10,7 @@ permalink: "{{ page.filePathStem }}/../"
 \tableofcontents
 \pagebreak
 
-Download the PDF [here](../notes.pdf).
+Download the PDF [here](notes.pdf).
 **TODO:** autogenerate PDF using a GitHub action after every merged PR.
 
 <div class='toc'>
