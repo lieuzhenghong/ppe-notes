@@ -4,7 +4,7 @@ author: Zhenghong Lieu
 layout: base
 date: 2021-03-31
 permalink: "{{ page.filePathStem }}/../"
-tags: ["notes", "ppe", "oxford", "macroeconomics", "economics"]
+tags: ["notes", "ppe", "oxford", "macroeconomics", "economics", "finals"]
 ---
 
 ## Introduction

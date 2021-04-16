@@ -1,12 +1,51 @@
 ---
-header-includes:
-	- \usepackage{tikz}
-	- \usetikzlibrary{shapes,arrows,graphs}
+title: Quantitative Economics Notes for Oxford PPE Finals
+author: Lieu Zheng Hong
+layout: base
+date: 2021-04-16
+permalink: "{{ page.filePathStem }}/../"
+tags: ["notes", "ppe", "oxford", "quantitative economics", "economics", "finals"]
 ---
 
-\tableofcontents
+## Introduction
 
-\pagebreak
+These are notes I (Lieu Zheng Hong) 
+wrote for myself while preparing for my Oxford PPE Finals.
+Some of my juniors asked for my notes and I am happy to oblige.
+
+These notes are free to all but 
+I ask that you do not reproduce them
+without first obtaining my express permission.
+
+There are lots of mistakes, omissions, and 
+inadequacies in these notes.
+I'd love your input to help make these notes better,
+by emailing me or
+by sending in a pull request at the GitHub repo
+[here](https://github.com/lieuzhenghong/ppe-notes/).
+
+Compilation of QE past year questions here:
+[QE past-year questions](./QE_PYP_Questions.pdf)
+
+I also have some worked attempts/answers here (which may be wrong!):
+[2016 attempt PDF](./2016_attempt.pdf), 
+[Hypothesis Testing Answers](./Hypo_Testing_Answers.pdf), 
+[OLS Answers](./OLS_answers.pdf), 
+[Tutorial 2 Answers](./Tutorial_2_Answers.pdf), 
+[Tutorial 5 Answers](./Tutorial_5_Answers.pdf), 
+
+---
+
+## Table of contents
+
+<div class='toc'>
+
+[toc]
+
+</div>
+
+---
+
 
 # Things to take note
 
@@ -897,4 +936,3 @@ But standard errors are not valid.
 `iv_robust(lwage ~ educ + demog + family | nearc4 + demog + family, data = prox)`
 
 
-<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script> 

@@ -4,7 +4,7 @@ author: Lieu Zheng Hong
 layout: base
 date: 2021-04-16
 permalink: "{{ page.filePathStem }}/../"
-tags: ["notes", "ppe", "oxford", "microeconomics", "economics"]
+tags: ["notes", "ppe", "oxford", "microeconomics", "economics", "finals"]
 ---
 
 ## Introduction
@@ -1139,7 +1139,7 @@ occurring. Usually when we draw these indifference curves
 
 The slope of the indifference curve,
 
-$$ \frac{dx_2}{dx_1} = -\frac{\pi}{1-\pi} \frac{u^{'}(x_1)}{u^{'}(x_2)}$$
+$$\frac{dx_2}{dx_1} = -\frac{\pi}{1-\pi} \frac{u^{'}(x_1)}{u^{'}(x_2)}$$
 
 and the derivation is in Bassel's notes. Along the certainty line, the slope of
 the indifference curve is exactly $\frac{\pi}{1-\pi}$, because the income amounts
@@ -1154,7 +1154,9 @@ $$\pi(y_1) + (1-\pi)y_2 = \bar{y}$$
 
 and so the slope of the iso-income line is simply given by
 
-$$ \frac{dy_2}{dy_1} = -\frac{\pi}{1-\pi} $$ by the chain rule.
+$$\frac{dy_2}{dy_1} = -\frac{\pi}{1-\pi}$$ 
+
+by the chain rule.
 
 The risk premium is therefore $CE - \bar{Y}$, which is $C-M$ on the graph.
 
