@@ -1,11 +1,40 @@
 ---
-title: Microeconomics notes for Oxford PPE Finals
+title: Microeconomics Notes for Oxford PPE Finals
 author: Lieu Zheng Hong
-date: Last updated 2021-04-16
+layout: base
+date: 2021-04-16
+permalink: "{{ page.filePathStem }}/../"
+tags: ["notes", "ppe", "oxford", "microeconomics", "economics"]
 ---
 
-\tableofcontents{}
-\pagebreak{}
+## Introduction
+
+These are notes I (Lieu Zheng Hong) 
+wrote for myself while preparing for my Oxford PPE Finals.
+Some of my juniors asked for my notes and I am happy to oblige.
+
+These notes are free to all but 
+I ask that you do not reproduce them
+without first obtaining my express permission.
+
+There are lots of mistakes, omissions, and 
+inadequacies in these notes.
+I'd love your input to help make these notes better,
+by emailing me or
+by sending in a pull request at the GitHub repo
+[here](https://github.com/lieuzhenghong/ppe-notes/).
+
+---
+
+## Table of contents
+
+<div class='toc'>
+
+[toc]
+
+</div>
+
+---
 
 # Some general thoughts
 
@@ -1303,7 +1332,7 @@ represents no lottery at all.
 With the state space diagram, we can now see whether Hugh should buy insurance.
 
 ![When the insurance is actuarially fair, the consumer should fully
-insure \label{fair_insurance}](./fair_insurance.png)
+insure \label{fair_insurance}](./img/fair_insurance.png)
 
 Hugh has the option to purchase insurance with a cover of q and a premium $\pi$
 per unit of cover. 
@@ -1318,7 +1347,7 @@ equal to the chance of an accident. When this is the case, Hugh should fully
 insure such that he loses nothing in the accident case.
 
 ![When insurance is actuarially unfair but not too unfair, the consumer
-partially insures \label{unfair_insurance_1}](./unfair_insurance_1.png)
+partially insures \label{unfair_insurance_1}](./img/unfair_insurance_1.png)
 
 Figure \ref{unfair_insurance_1} shows how Hugh should still purchase insurance
 even if it is not actuarially fair. Here the company is offering cover at a
@@ -1328,7 +1357,7 @@ move him to a higher indifference curve $u_2$ in red, compared to his original
 lottery.
 
 ![When insurance is too expensive, the consumer does not insure at all
-\label{unfair_insurance_2}](./unfair_insurance_2.png)
+\label{unfair_insurance_2}](./img/unfair_insurance_2.png)
 
 Finally, Figure \ref{unfair_insurance_2} shows that Hugh should not purchase
 any insurance if the premium is too high. In the figure, the premium is so high
@@ -1361,7 +1390,7 @@ H-types prefer the contract meant for them, as the partial coverage lies below
 their current indifference curve on the high contract.
 
 ![There may be a separating competitive equilibrium
-\label{sep_eqm}](./separating_equilibrium.png)
+\label{sep_eqm}](./img/separating_equilibrium.png)
 
 However, this separating equilibrium may not exist. If the proportion of
 low-risk types is large enough, there is a profitable deviation for insurance
@@ -1372,7 +1401,7 @@ will switch as any point in the shaded region lies above the current
 indifference curves for both high- and low-risk types.
 
 ![If the proportion of low-risk types is large enough, there may not exist a
-separating Rothchild-Stiglitz equilibrium](./separating_equilibrium_dne.png)
+separating Rothchild-Stiglitz equilibrium](./img/separating_equilibrium_dne.png)
 
 \pagebreak
 
@@ -1644,7 +1673,7 @@ Its wage schedule must therefore be something along the lines of:
 $$ \lambda \theta_H + (1-\lambda) \theta_L  \quad \textrm{if} \quad e = e^{*}; $$
 $$ \theta_L \quad \textrm{otherwise} $$
 
-![Screening: Pooling equilibrium. From Peter Eso's slides.](screening_pooling_1.png)
+![Screening: Pooling equilibrium. From Peter Eso's slides.](./img/screening_pooling_1.png)
 
 We can represent this in a diagram with wage on the y-axis and effort on the
 x-axis.  The green line represents the wage schedule that the firm pays, and
@@ -1704,7 +1733,7 @@ exactly what I wrote. Here in Eso's slides the wage goes to $\theta_L$ even
 when $e > e_H$, whereas in my treatment I have that the wage is $\theta_H$
 above $e_H$. It doesn't matter --- it's a bit like an "off-path" equilibrium.
 
-![Separating equilibrium. From Eso's slides.](screening_separating_1.png)
+![Separating equilibrium. From Eso's slides.](./img/screening_separating_1.png)
 
 ### The Intuitive Criterion rules out all pooling equilibria and non-minimally separating equilibria
 
@@ -1721,7 +1750,7 @@ costly. If that's the case, then the Intuitive Criterion tells us that
 $\mu(\theta_H | e = e^{'}) = 1$, and so we have a profitable deviation.
 
 ![Why pooling equilibria cannot
-exist.](screening_intuitive_criterion_no_pooling.png)
+exist.](./img/screening_intuitive_criterion_no_pooling.png)
 
 The Intuitive Criterion tells us that non-minimally separating equilibria
 cannot exist. A non-minimally separating equilibria is an equilibria where
@@ -1738,7 +1767,7 @@ once again tells us that $\mu(\theta_H | e = e^{'}) = 1$, and so we have a
 profitable deviation for H-types to exert less effort.
 
 ![Why non-minimally separating equilibria cannot
-exist](screening_intuitive_criterion_no_nmse.png)
+exist](./img/screening_intuitive_criterion_no_nmse.png)
 
 ### Mixed semi-separating equilibria
 

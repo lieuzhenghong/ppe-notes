@@ -4,21 +4,32 @@ author: Zhenghong Lieu
 layout: base
 date: 2021-03-31
 permalink: "{{ page.filePathStem }}/../"
-tags: ["notes", "ppe", "oxford"]
+tags: ["notes", "ppe", "oxford", "macroeconomics", "economics"]
 ---
 
 ## Introduction
 
-These are notes I (Zhenghong Lieu) 
+These are notes I (Lieu Zheng Hong) 
 wrote for myself while preparing for my Oxford PPE Finals.
-A few of my friends requested that I share it with them.
+Some of my juniors asked for my notes and I am happy to oblige.
 
-I provide these notes to all but I ask that you do not reproduce them
+I provide these notes free to all 
+but I ask that you do not reproduce them
 without first obtaining my express permission.
-Please let me know if there are any mistakes in these notes.
+
+There are lots of mistakes, omissions, and 
+inadequacies in these notes.
+I'd love your input to help make these notes better,
+by emailing me or
+by sending in a pull request at the GitHub repo
+[here](https://github.com/lieuzhenghong/ppe-notes/).
 
 - Download the PDF [here](notes.pdf).
 - **TODO:** autogenerate PDF using a GitHub action after every merged PR.
+
+---
+
+## Table of contents
 
 <div class='toc'>
 
@@ -26,9 +37,7 @@ Please let me know if there are any mistakes in these notes.
 
 </div>
 
-\pagebreak
-\tableofcontents
-\pagebreak
+---
 
 # Key equations in all the models
 
