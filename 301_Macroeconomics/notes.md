@@ -1,24 +1,34 @@
 ---
-title: Big Macro notes in one searchable document
+title: "Macroeconomics Notes for Oxford PPE Finals"
 author: Zhenghong Lieu
 layout: base
 date: 2021-03-31
 permalink: "{{ page.filePathStem }}/../"
-tags: ["notes"]
+tags: ["notes", "ppe", "oxford"]
 ---
 
-\pagebreak
-\tableofcontents
-\pagebreak
+## Introduction
 
-Download the PDF [here](notes.pdf).
-**TODO:** autogenerate PDF using a GitHub action after every merged PR.
+These are notes I (Zhenghong Lieu) 
+wrote for myself while preparing for my Oxford PPE Finals.
+A few of my friends requested that I share it with them.
+
+I provide these notes to all but I ask that you do not reproduce them
+without first obtaining my express permission.
+Please let me know if there are any mistakes in these notes.
+
+- Download the PDF [here](notes.pdf).
+- **TODO:** autogenerate PDF using a GitHub action after every merged PR.
 
 <div class='toc'>
 
 [toc]
 
 </div>
+
+\pagebreak
+\tableofcontents
+\pagebreak
 
 # Key equations in all the models
 
