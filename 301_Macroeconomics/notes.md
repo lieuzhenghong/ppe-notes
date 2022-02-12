@@ -131,13 +131,11 @@ Cobb-Douglas production function (letting A =1 for simplicity), take logs, and
 differentiate to get:
 
 
-$$\begin{align}
-Y &= K^\alpha N^{1-\alpha}\\
-\log Y &= \alpha \log K + (1-\alpha) \log N\\
-\frac{d \log Y}{dY}\frac{dY}{dt} &= \alpha \frac{d \log K}{dK} \frac{dK}{dt} + (1-\alpha) \frac{d \log N}{dN} \frac{dN}{dt}\\
-\frac{\dot{Y}}{Y} &= \alpha \frac{\dot{K}}{K} + (1-\alpha) \frac{\dot{N}}{N}\\
-g_Y &= \alpha g_K + (1-\alpha) n.
-\end{align}$$
+$$Y = K^\alpha N^{1-\alpha}$$
+$$\log Y = \alpha \log K + (1-\alpha) \log N$$
+$$\frac{d \log Y}{dY}\frac{dY}{dt} = \alpha \frac{d \log K}{dK} \frac{dK}{dt} + (1-\alpha) \frac{d \log N}{dN} \frac{dN}{dt}$$
+$$\frac{\dot{Y}}{Y} = \alpha \frac{\dot{K}}{K} + (1-\alpha) \frac{\dot{N}}{N}$$
+$$g_Y = \alpha g_K + (1-\alpha) n.$$
 
 The expression is easily understood. The growth of output is a weighted sum of
 the growth of capital and the growth of the labour force, with weights equal to
@@ -157,11 +155,9 @@ We know that at the steady state, the ratio of capital to labour does not
 change: that is: $\dot{k} = 0$. With this, and the Fundamental Solow Equation
 of Motion, we have:
 
-$$\begin{align}
-\dot{k} &= sAk^{\alpha} - (n + \delta)k \\
-sAk^{\alpha} &= (n + \delta)k \\
-\dot{k} &= (\frac{sA}{n+\delta})^{\frac{1}{1-\alpha}}
-\end{align}$$
+$$\dot{k} = sAk^{\alpha} - (n + \delta)k
+sAk^{\alpha} = (n + \delta)k
+\dot{k} = (\frac{sA}{n+\delta})^{\frac{1}{1-\alpha}}$$
 
 Given that $y = Ak^\alpha$, we can also solve for $y^{*}$, to obtain:
 
@@ -289,6 +285,7 @@ and interest rates equal the marginal products of labour and capital
 respectively:
 
 $$r_t = A_t \frac{\partial F(K_t, L_t)}{\partial K_t} \equiv MPK_t$$
+
 $$w_t = A_t \frac{\partial F(K_t, L_t)}{\partial L_t} \equiv MPL_t$$
 
 Importantly, We can see that $r$ and $w$ depend positively on $A$, but $w$
@@ -3032,7 +3029,8 @@ and capital grow at the same rate, i.e. the capital-output ratio is constant.
 In the Solow model with no technological progress, the only driver of growth is
 capital accumulation. 
 
-$$ Y = K^\alpha$$ where $0 < \alpha < 1$ (diminishing returns to capital)
+$$ Y = K^\alpha$$
+where $0 < \alpha < 1$ (diminishing returns to capital)
 
 We assume that a proportion of capital $\delta$ depreciates every period, and
 there is also a savings rate $s$ which is a proportion of total output. The
@@ -3088,13 +3086,11 @@ Finally, let's look at the growth rate of output, $g_Y$. We start with the
 Cobb-Douglas production function (letting A =1 for simplicity), take logs, and
 differentiate to get:
 
-\begin{align}
-Y &= K^\alpha N^{1-\alpha}\\
-\log Y &= \alpha \log K + (1-\alpha) \log N\\
-\frac{d \log Y}{dY}\frac{dY}{dt} &= \alpha \frac{d \log K}{dK} \frac{dK}{dt} + (1-\alpha) \frac{d \log N}{dN} \frac{dN}{dt}\\
-\frac{\dot{Y}}{Y} &= \alpha \frac{\dot{K}}{K} + (1-\alpha) \frac{\dot{N}}{N}\\
-g_Y &= \alpha g_K + (1-\alpha) n.
-\end{align}
+$$Y = K^\alpha N^{1-\alpha}$$
+$$\log Y = \alpha \log K + (1-\alpha) \log N$$
+$$\frac{d \log Y}{dY}\frac{dY}{dt} = \alpha \frac{d \log K}{dK} \frac{dK}{dt} + (1-\alpha) \frac{d \log N}{dN} \frac{dN}{dt}$$
+$$\frac{\dot{Y}}{Y} = \alpha \frac{\dot{K}}{K} + (1-\alpha) \frac{\dot{N}}{N}$$
+$$g_Y = \alpha g_K + (1-\alpha) n.$$
 
 The expression is easily understood. The growth of output is a weighted sum of
 the growth of capital and the growth of the labour force.
@@ -3266,7 +3262,9 @@ where $A_t = A_0 e^{xt}$.
 
 On the balanced growth path, 
 
-$$g_Y = g_k =  n + x,$$ and *per capita* growth rates on the BGP are thus
+$$g_Y = g_k =  n + x,$$ 
+
+and *per capita* growth rates on the BGP are thus
 
 $$g_y = g_k = x, $$
 
@@ -3556,8 +3554,8 @@ technology, technology is neutral only when $\sigma = 1$.** Empirically, we
 find that $\sigma$ roughly equals 2, so it is indeed the case that improvements
 in skill-complementary technology are skill-biased. Figure
 \ref{skill_biased_wage_premium} illustrates.  Despite the increase in H/L,
-skill-biased technology change causes the wage premium to increase from $w^*$
-to $w^{*\*}$.
+skill-biased technology change causes the wage premium to increase from $w^{*}$
+to $w^{**}$.
 
 ![Skill-biased technology change can offset an increase in skilled labour,
 causing the wage labour to increase
@@ -3610,7 +3608,7 @@ $$\frac{p_H}{p_L} = \left [ \frac{A_H H}{A_L L} \right ] ^{\rho-1}$$
 
 We can substitute in the values of $p_H$ and $p_L$. Some derivation gives
 
-$$\frac{A_h}{A_l} = (\frac{H}{L})^ {\sigma - 1} $$.
+$$\frac{A_h}{A_l} = (\frac{H}{L})^ {\sigma - 1}.$$
 
 This gives the result that when $\sigma > 1$, more technology will be produced
 for the higher-skilled worker if H/L increases (i.e. the market size effect
@@ -4689,6 +4687,7 @@ labour and capital.
 
 $$Y_t = A_tF(K_t, L_t) $$
 $$r_t = A_t \frac{\partial F(K_t, L_t)}{\partial K_t} \equiv MPK_t$$
+
 $$w_t = A_t \frac{\partial F(K_t, L_t)}{\partial L_t} \equiv MPL_t$$
 
 Constant returns to scale:
@@ -4698,6 +4697,7 @@ $$r_t K_t + w_t L_t = A_tF(K_t, L_t) = Y_t $$
 Assume a Cobb-Douglas production function to get the following marginal productivities:
 
 $$r_t = A_t \alpha \frac{L^{1-\alpha}}{K^{1-\alpha}} \equiv MPK_t$$
+
 $$w_t = A_t \alpha \frac{K^{\alpha}}{L^{\alpha}} \equiv MPL_t$$
 
 $r$ and $w$ depend positively on $A$, but $w$ increases with the $K/L$ ratio
@@ -5294,8 +5294,8 @@ We assume a Cobb-Douglas production function, $Y_t = K_t^\alpha
 L_t^{1-\alpha}$, to get the following marginal productivities of capital and
 labour respectively:
 
-$$r_t = A_t \alpha \frac{L^{1-\alpha}}{K^{1-\alpha}} \equiv MPK_t$$ $$w_t = A_t
-\alpha \frac{K^{\alpha}}{L^{\alpha}} \equiv MPL_t$$
+$$r_t = A_t \alpha \frac{L^{1-\alpha}}{K^{1-\alpha}} \equiv MPK_t$$ 
+$$w_t = A_t \alpha \frac{K^{\alpha}}{L^{\alpha}} \equiv MPL_t$$
 
 Here $r$ and $w$ depend positively on $A$, but $w$ increases with the $K/L$
 ratio while $r$ decreases. 

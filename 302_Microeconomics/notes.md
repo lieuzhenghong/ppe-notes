@@ -425,13 +425,14 @@ $$u(y) = a - b e^{(-Ay)} $$
 
 Constant relative risk aversion (CRRA):
 
-$$u(y) = a + b\frac{y^{1-R}}{1-R}$$, R =/= 1
+$$u(y) = a + b\frac{y^{1-R}}{1-R},$$
+$$R =/= 1$$
 
-Note that since R(y) = A(y)(y), CARA imples IRRA and CRRA imples DARA.
+Note that since $R(y) = A(y)(y)$, CARA imples IRRA and CRRA imples DARA.
 
 ## Why does CRS mean 0 profit and DRS means positive profits in eqm?
 
-In CRS. Suppose we've optimised $K^{*} and L^(*)$, and we are making positive
+In CRS. Suppose we've optimised $K^{*}$ and $L^(*)$, and we are making positive
 profits $\pi^{*}$. But then we can simply scale all inputs by $\lambda$, and
 make even more profits, ad infinitum, unless your profits are zero.
 
@@ -563,7 +564,9 @@ $$MRS_{x,y} = dy/dx = \frac{\frac{\partial u}{\partial x}}{\frac{\partial u}{\pa
 
 With quasilinear preferences, 
 
-$$U = -\alpha x + \beta ln(y)$$,
+$$U = -\alpha x + \beta \ln{y},$$
+
+and
 
 $MRS = - \alpha / \beta y$ which depends only on y. 
 
@@ -586,8 +589,6 @@ when using the Lagrangian to solve a constrained optimisation problem.
 See Bassel's notes, **1 Constrained Optimisation**
 
 #### Envelope Theorem
-
-The Envelope THeorem is a trick we can use for 
 
 See Bassel's notes, **1.5 The Envelope Theorem**
 
@@ -822,8 +823,7 @@ Teytelboym's lecture notes:
 	 prices. So, for example, get rid of “endowment”
 3. For each good in the economy, calculate aggregate demand, aggregate supply,
 	 and aggegate endowment. Together they give you an excess demand equation
-	 that should be zero in equilibrium, so
-	 $$eqn$$
+	 that should be zero in equilibrium.
 4. Now, you have a market-clearing condition for every good: k equations and k
 	 unknowns. Existence theorem tells that a solution exists (phew).  And you
 	 only need to solve k - 1 such conditions by Walras’s Law.
@@ -1124,7 +1124,8 @@ $$u(y) = a - b e^{(-Ay)} $$
 
 Constant relative risk aversion (CRRA):
 
-$$u(y) = a + b\frac{y^{1-R}}{1-R}$$, R =/= 1
+$$u(y) = a + b\frac{y^{1-R}}{1-R},$$
+$$R =/= 1$$
 
 Note that since R(y) = A(y)(y), CARA imples IRRA and CRRA imples DARA.
 
@@ -1397,7 +1398,7 @@ their current indifference curve on the high contract.
 However, this separating equilibrium may not exist. If the proportion of
 low-risk types is large enough, there is a profitable deviation for insurance
 companies to offer a pooling contract anywhere in the shaded region below the
-zero-profit pooling line $Z_pool$ (in green). This deviation will be profitable
+zero-profit pooling line $Z_{pool}$ (in green). This deviation will be profitable
 as it lies below the zero profit line, and both high-risk and low-risk types
 will switch as any point in the shaded region lies above the current
 indifference curves for both high- and low-risk types.
