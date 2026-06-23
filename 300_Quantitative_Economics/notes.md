@@ -110,7 +110,7 @@ $$\frac{\bar{Y} - \mu_Y}{\sigma^{\bar{Y}}} \sim N(0,1) $$
 
 ## What does it mean for an estimator to be consistent?
 
-8. $\hat{a}$ is a consistent estimator of $a$ if as N gets large, for any $\epsilon > 0$, the probability that $\hat{a} - a < \epsilon$ tends to zero.
+1. $\hat{a}$ is a consistent estimator of $a$ if as N gets large, for any $\epsilon > 0$, the probability that $|\hat{a} - a| > \epsilon$ tends to zero.
 
 ## What does it mean for an estimator to be efficient?
 
