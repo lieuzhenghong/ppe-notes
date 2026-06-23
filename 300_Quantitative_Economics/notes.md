@@ -106,7 +106,7 @@ $$\frac{\bar{Y} - \mu_Y}{\sigma^{\bar{Y}}} \sim N(0,1) $$
 
 ## What does it mean for an estimator to be unbiased?
 
-7. An estimator $\hat{a}$ is a consistent estimator of $a$ iff $E(\hat{a}) = a$.
+7. An estimator $\hat{a}$ is an unbiased estimator of $a$ iff $E(\hat{a}) = a$.
 
 ## What does it mean for an estimator to be consistent?
 
