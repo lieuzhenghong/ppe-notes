@@ -62,7 +62,7 @@ But check for corner solutions!
 
 ## In a competitive equilibrium, a household maximises when MRS = slope of price line
 
-THe price line is $-\frac{p_x}{p_y}$
+The price line is $-\frac{p_x}{p_y}$
 
 ## General demands under a Cobb-Douglas utility function
 
@@ -121,7 +121,7 @@ $$-\frac{px}{py}$$
 
 ## Draw an Edgeworth box to illustrate the Stolper-Samuelson theorem.
 
-## What is Rybcynzki's theorem?
+## What is Rybczynzki's theorem?
 
 ## Draw an Edgeworth box to illustrate Rybczynski's theorem.
 
@@ -182,7 +182,7 @@ and
 
 $$px^{'}_i > p w_i $$
 
-(otherwise shecould have chosen x' from her endowment $w_i$ at competitive
+(otherwise she could have chosen x' from her endowment $w_i$ at competitive
 equilibrium prices). But then if we aggregate all the demands, it is clear
 that $x^{'}$ cannot actually be feasible.
 
@@ -195,9 +195,9 @@ that $x^{'}$ cannot actually be feasible.
 ## Draw an Edgeworth box to illustrate how taxing goods and giving the full
 	amount creates inefficiency  (lecture 3 slide 26)
 
-## What is the tatonnement process? Describe it.
+## What is the tâtonnement process? Describe it.
 
-## What are the two restrictions on aggregate demand in order for the tatonnement process to get us to the price vector that gives us the competitive equilibrium?
+## What are the two restrictions on aggregate demand in order for the tâtonnement process to get us to the price vector that gives us the competitive equilibrium?
 
 - gross substitutes
 - WARP
@@ -350,8 +350,8 @@ probability of lower outcomes is always lower under $L_a$ than $L_b$.
 Would any *risk-averse* or *risk-neutral* utility maximiser (weakly) prefer it?
 
 A lottery $L_a$ *second-order* stochastically dominates another $L_b$ if the
-*area* under the cumulative distributive function of lottery $L_a$ is less than
-the *area* under the cumulative distributive function of lottery $L_b$ until we
+*area* under the cumulative distribution function of lottery $L_a$ is less than
+the *area* under the cumulative distribution function of lottery $L_b$ until we
 reach the best outcome.
 
 Second-order stochastic dominance: would every risk-averse utility maximiser
@@ -428,7 +428,7 @@ Constant relative risk aversion (CRRA):
 $$u(y) = a + b\frac{y^{1-R}}{1-R},$$
 $$R =/= 1$$
 
-Note that since $R(y) = A(y)(y)$, CARA imples IRRA and CRRA imples DARA.
+Note that since $R(y) = A(y)(y)$, CARA implies IRRA and CRRA implies DARA.
 
 ## Why does CRS mean 0 profit and DRS means positive profits in eqm?
 
@@ -517,13 +517,13 @@ for essay questions.*
 
 *Bassel says: This whole notion of competitive equilibrium doesn't have any
 thing about *how* people trade and get to that point. That's why we have
-tacked-on a Tattonment process, or reaching a price vector through bartering*
+tacked-on a tâtonnement process, or reaching a price vector through bartering*
 
 The Edgeworth process gets you to a PE (on the contract curve), but not
 necessarily the specific CE supported by the price vector.
 
 *Bassel says: For an essay on general equilibrium, **clarity is key**. Nail
-down all the definitions, have a very clear struture of the essay, relate the
+down all the definitions, have a very clear structure of the essay, relate the
 concepts to one another in a clear way. Don't mix up questions on existence to
 questions on efficiency to questions on price.*
 
@@ -541,7 +541,7 @@ If no free mobility, then you have two wages
 
 - draw diagrams for exchange economy
 - draw diagram for robinson crusoe eocnomy 
-- draw out diagrams for the stolper-samuelson theorem and rybcyznski theorem
+- draw out diagrams for the stolper-samuelson theorem and rybczynski theorem
 - draw diagrams for how trade improves the economy
 - draw a diagram for how trade may affect consumers with heterogeneous
 	preferences
@@ -822,7 +822,7 @@ Teytelboym's lecture notes:
 2. Make sure that these demand and supply functions are only functions of
 	 prices. So, for example, get rid of “endowment”
 3. For each good in the economy, calculate aggregate demand, aggregate supply,
-	 and aggegate endowment. Together they give you an excess demand equation
+	 and aggregate endowment. Together they give you an excess demand equation
 	 that should be zero in equilibrium.
 4. Now, you have a market-clearing condition for every good: k equations and k
 	 unknowns. Existence theorem tells that a solution exists (phew).  And you
@@ -1177,8 +1177,8 @@ probability of lower outcomes is always lower under $L_a$ than $L_b$.
 ![First-order stochastic dominance](./img/fosd.png)
 
 A lottery $L_a$ *second-order* stochastically dominates another $L_b$ if the
-*area* under the cumulative distributive function of lottery $L_a$ is less than
-the *area* under the cumulative distributive function of lottery $L_b$ until we
+*area* under the cumulative distribution function of lottery $L_a$ is less than
+the *area* under the cumulative distribution function of lottery $L_b$ until we
 reach the best outcome.
 
 Second-order stochastic dominance: would every risk-averse utility maximiser
@@ -1404,7 +1404,7 @@ will switch as any point in the shaded region lies above the current
 indifference curves for both high- and low-risk types.
 
 ![If the proportion of low-risk types is large enough, there may not exist a
-separating Rothchild-Stiglitz equilibrium](./img/separating_equilibrium_dne.png)
+separating Rothschild-Stiglitz equilibrium](./img/separating_equilibrium_dne.png)
 
 \pagebreak
 
@@ -1428,7 +1428,7 @@ The principal wants to maximise his expected profit by choosing a contract
 $(w^L, w_H)$ which induces an effort level $e$ so as to maximise the following
 profit function:
 
-$$\Pi - (1-p(e))(y^L - w^L) + p(e)(y^H - w^H)$$
+$$\Pi = (1-p(e))(y^L - w^L) + p(e)(y^H - w^H)$$
 
 The agent has both a *participation* and an *incentive* constraint. The
 participation constraint ensures that the agent's reservation utility must be
@@ -1638,7 +1638,7 @@ unobservable case.
 
 ## Signaling
 
-Spencerian (1973) signaling game. Unlike screening, here it's the 
+Spencian (1973) signaling game. Unlike screening, here it's the 
 
 ### Basic setup
 
@@ -1868,7 +1868,7 @@ e(\cdot)$, and the terms fall out.
 
 Risk aversion is the slope of the indifference curve in state-dependent space. It 
 
-Greg is more risk avers
+Greg is more risk averse
 
 
 ## 2015 Q10. Pat argues, “Sure, I don’t like risk. But if I always choose the option with the higher expected value, over the long run the wins and losses will more or less cancel out, except that I will end up getting a higher payoff on average. So it is irrational to be averse to risk.” Evaluate Pat’s argument.
@@ -1904,7 +1904,7 @@ is assured of similar future lotteries.
 "It is irrational to be averse to risk": what does that *actually* mean? Recall
 that risk aversion really just means decreasing marginal utility of wealth. But
 there is a second definition, more "pedestrian": that is that a risk-averse
-person would not take a fair (or even somewhat positive EV) lottery. Pam's
+person would not take a fair (or even somewhat positive EV) lottery. Pat's
 argument is that: even if you are risk-averse in definition (1), if you think
 of lotteries as a series of lotteries, you should not be risk averse according to
 definition (2).
