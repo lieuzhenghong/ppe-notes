@@ -47,7 +47,7 @@ how to solve problems.
 
 ## What is the MRS?
 
-- dU/dx / dU/dy = -dy/dx = - py/px
+- dU/dx / dU/dy = - dy/dx = px/py
 
 ## What is the MRT?
 
