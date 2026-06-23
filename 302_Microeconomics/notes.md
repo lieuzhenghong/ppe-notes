@@ -74,9 +74,9 @@ $$ u(A, B, C) = a^\frac{1}{2}b^\frac{1}{4}c^\frac{1}{2} ,$$
 
 his demands will be 
 
-$$ a = \frac{\frac{1}{2} \cdot 10p_A}{p_A}, $$
-$$ b = \frac{\frac{1}{4} \cdot 10p_A}{p_B}, $$
-$$ b = \frac{\frac{1}{2} \cdot 10p_A}{p_c}. $$
+$$ a = \frac{\frac{2}{5} \cdot 10p_A}{p_A}, $$
+$$ b = \frac{\frac{1}{5} \cdot 10p_A}{p_B}, $$
+$$ c = \frac{\frac{2}{5} \cdot 10p_A}{p_C}. $$
 
 ## General demands under a quasilinear utility function
 
