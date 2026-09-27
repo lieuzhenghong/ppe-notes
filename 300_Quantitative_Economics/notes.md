@@ -426,7 +426,7 @@ the predicted value
 
 The RMSFE is 
 
-$$\sqrt{E[Y_t - \hat{Y}_{t | t-1}]}, $$
+$$\sqrt{E[Y_t - \hat{Y}_{t | t-1}]^2}, $$
 
 a measure of the magnitude of the typical forecasting "mistake".
 
